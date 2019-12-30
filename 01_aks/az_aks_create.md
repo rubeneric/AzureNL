@@ -30,7 +30,7 @@ At this point you want to make some choices regarding the details of your cluste
 One thing to do is to check the latest and other supported versions of Kubernetes in AKS. 
 
 ```
-az aks get-versions --location westeurope --output table
+az aks get-versions --location $region --output table
 
 ```
 And then set the version in your script
