@@ -23,12 +23,22 @@ resourcegroupname=aksrg
 aksname=aks
 region=westeurope
 az group create --name=$resourcegroupname --location=$region
-```
-
-At this point you want to make some choices regarding the details of your cluster. I am going to go with the setup that I like, and you can have your own requirements or preferences.
 
 ```
-az aks create --resource-group $resourcegroupname --name $aksname --vm-set-type VirtualMachineScaleSets --node-count 2 --generate-ssh-keys --kubernetes-version 1.14.8 --node-vm-size Standard_B2ms
+At this point you want to make some choices regarding the details of your cluster. I am going to go with a default setup that I like, and you can have your own requirements or preferences.
+
+One thing to do is to check the latest and other supported versions of Kubernetes in AKS. 
+
+```
+az aks get-versions --location westeurope --output table
+
+```
+And then set the version in your script
+
+```
+kubernetesversion=1.15.5
+
+az aks create --resource-group $resourcegroupname --name $aksname --generate-ssh-keys --kubernetes-version $kubernetesversion --node-vm-size Standard_B2ms --node-count 2 
 ```
 
 # Advanced deployments
