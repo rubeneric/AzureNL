@@ -1,12 +1,16 @@
 # Introduction 
 TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
 
+# People
+This is a team effort, mostly by Microsoft employees in the Netherlands who work with Azure. This is an overview of [Users](./users.md).
+
 # Getting Started
 TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
 
-0.  [Template](./00_template)
-1.	[AKS](./01_aks)
-2.	Etc
+0. [Template](./_template)
+1. [VM](./virtualmachines)
+2. [AKS](./aks)
+3. Etc
 
 # Build and Test
 TODO: Describe and show how to build your code and run the tests. 
