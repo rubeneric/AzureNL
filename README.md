@@ -1,7 +1,9 @@
-# Introduction 
+# AzureNL  
+
+## Introduction
 TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
 
-# People
+## People
 This is a team effort, mostly by Microsoft employees in the Netherlands who work with Azure. This is an overview of [Users](./users.md).
 
 # Getting Started
