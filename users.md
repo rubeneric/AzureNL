@@ -1,8 +1,7 @@
 # Users
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
 
 ## Introduction
-This is a team effort, mostly by Microsoft employees in the Netherlands who work with Azure. This is an overview of [Users](./users.md).
+This repo is a team effort, mostly by Microsoft employees in the Netherlands who work with Azure. Here you see an overview of users.
 
 ## List
 * [Agraj Mangal](https://github.com/agrajm)
