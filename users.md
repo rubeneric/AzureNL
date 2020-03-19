@@ -18,5 +18,6 @@ This repo is a team effort, mostly by Microsoft employees in the Netherlands who
 * [Murat Eken](https://github.com/meken)
 * [Pascal van der Heiden](https://github.com/pascalvanderheiden)
 * [Pieter de Bruin](https://github.com/pdebruin)
+* [Ruben Pool](https://github.com/rubeneric)
 * [Victor Pikula](https://github.com/victorp13)
 * [Zen Riel](https://github.com/zenulous)
