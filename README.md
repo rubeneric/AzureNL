@@ -1,26 +1,21 @@
 # AzureNL  
 
 ## Introduction
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+This repo contains Azure samples of all sorts. 
 
 ## People
-This is a team effort, mostly by Microsoft employees in the Netherlands who work with Azure. This is an overview of [Users](./users.md).
+This repo is a team effort, mostly by Microsoft employees in the Netherlands who work with Azure. Here you see an overview of [Users](./users.md).
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
+# Content
+## Azure Services
+The repo contains sections/folders grouped by Azure service. Each of these sections are independent and describe how you can get started themselves.
+* [VM](./virtualmachines)
+* [AKS](./aks)
+* Etc
 
-0. [Template](./_template)
-1. [VM](./virtualmachines)
-2. [AKS](./aks)
-3. Etc
+## Third party solutions
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+* [Pega on AKS](./3rdparty/pega)
 
 # Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://www.visualstudio.com/en-us/docs/git/create-a-readme). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+If you want to contribute, feel free to propose a change. When you want to create a new section for a missing service, please reuse the [Template](./_template).
